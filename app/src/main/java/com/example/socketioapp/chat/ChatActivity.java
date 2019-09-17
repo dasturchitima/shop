@@ -70,7 +70,7 @@ public class ChatActivity extends AppCompatActivity implements ChatContract.View
                 Injection.provideSchedulerProvider(),
                 Injection.providesRepository(this));
     }
-//ss
+//Nima gapla
     @Override
     protected void onPause() {
         super.onPause();
