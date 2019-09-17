@@ -70,7 +70,6 @@ public class ChatActivity extends AppCompatActivity implements ChatContract.View
                 Injection.provideSchedulerProvider(),
                 Injection.providesRepository(this));
     }
-//Qo'shildi 1
     @Override
     protected void onPause() {
         super.onPause();
